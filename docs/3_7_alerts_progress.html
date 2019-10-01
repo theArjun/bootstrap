@@ -148,33 +148,73 @@
       <!--####################START HERE######################-->
 
       <!-- ALERTS -->
-      <div><strong>Primary</strong> Blog post added</div>
+      <div class="alert alert-primary">
+        <strong>
+          Primary
+        </strong>
+        Blog post added
+      </div>
 
-      <div><strong>Secondary</strong> Blog post added</div>
+      <div class="alert alert-secondary">
+        <strong>
+          Secondary
+        </strong>
+        Blog post added
+      </div>
 
-      <div><strong>Success</strong> Blog post added</div>
+      <div class="alert alert-success">
+        <strong>
+          Success
+        </strong>
+        Blog post added
+      </div>
 
-      <div><strong>Danger</strong> Please check the log files</div>
+      <div class="alert alert-danger">
+        <strong>
+          Danger
+        </strong>
+        Please check the log files
+      </div>
 
-      <div><strong>Info</strong> You have a new message</div>
+      <div class="alert alert-info">
+        <strong>
+          Info
+        </strong>
+        You have a new message
+      </div>
 
-      <div><strong>Warning</strong> Please check the log files</div>
+      <div class="alert alert-warning">
+        <strong>
+          Warning
+        </strong>
+        Please check the log files
+      </div>
 
-      <div><strong>Light</strong> Please check the log files</div>
+      <div class="alert alert-light">
+        <strong>
+          Light
+        </strong>
+        Please check the log files
+      </div>
 
-      <div><strong>Dark</strong> Please check the log files</div>
+      <div class="alert alert-dark">
+        <strong>
+          Dark
+        </strong>
+        Please check the log files
+      </div>
 
       <!-- DISMISSABLE ALERT -->
-      <div>
-        <button type="button">
+      <div class="alert alert-primary alert-dismissible">
+        <button class="close" type="button" data-dismiss="alert">
           <span>&times;</span>
         </button>
         <strong>Dismissable</strong> Blog post added
       </div>
 
       <!-- EXTRA CONTENT -->
-      <div>
-        <h4>Congrats!</h4>
+      <div class="alert alert-success">
+        <h4 class="alert-heading">Congrats!</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
           dignissimos eius, sit quo assumenda totam commodi ipsum saepe
@@ -182,7 +222,7 @@
           non, harum ab quam? Cumque
         </p>
         <hr />
-        <p>
+        <p class="mb-0">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, odio?
         </p>
       </div>
@@ -191,46 +231,65 @@
       <br />
 
       <!-- PROGRESS BARS -->
-      <div>
-        <div></div>
+      <div class="progress">
+        <div class="progress-bar" style="width:35%;"></div>
       </div>
       <br />
-      <div>
-        <div></div>
+      <!-- 
+      22:42:22 01 Oct, 2019 by Arjun Adhikari
+      Addding label. 
+      -->
+      <div class="progress">
+        <div class="progress-bar" style="width: 75%">
+        75%</div>
       </div>
       <br />
-      <div>
-        <div></div>
+      <!-- 
+      22:43:22 01 Oct, 2019 by Arjun Adhikari
+      Change color. 
+      -->
+      <div class="progress">
+        <div class="progress-bar bg-success"  style="width: 75%"></div>
       </div>
       <br />
-      <div>
-        <div></div>
+      <div class="progress">
+        <div class="progress-bar bg-danger"  style="width: 65%"></div>
       </div>
       <br />
-      <div>
-        <div></div>
+      <div class="progress">
+        <div class="progress-bar bg-warning"  style="width: 55%"></div>
       </div>
       <br />
-      <!-- HEIGHT -->
-      <div>
-        <div></div>
+      <!-- 
+      22:44:22 01 Oct, 2019 by Arjun Adhikari
+      Change height. 
+      -->
+      <div class="progress" style="height:2px;">
+        <div class="progress-bar bg-danger" style="width:45%;"></div>
       </div>
       <br />
-      <!-- STRIPED -->
-      <div>
-        <div></div>
+      <!-- 
+      22:45:22 01 Oct, 2019 by Arjun Adhikari
+      Adding stripes. 
+      -->
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped" style="width:55%;"></div>
       </div>
-      <br />
+      <br>
       <!-- ANIMATED -->
-      <div>
-        <div></div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%;"></div>
       </div>
       <br />
       <!-- MULTIPLE BARS -->
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <!-- 
+      22:51:22 01 Oct, 2019 by Arjun Adhikari
+      Added a bit of animation. 
+      -->
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:25%"></div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:25%"></div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:45%"></div>
       </div>
     </div>
     <!-- ./container -->

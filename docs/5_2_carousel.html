@@ -144,26 +144,33 @@
     </header>
 
     <!--###################START HERE####################-->
+    <!-- 
+    17:27:17 03 Oct, 2019 by Arjun Adhikari
+    Slider 1 
+    -->
     <div class="container">
       <div class="row">
         <div class="col-sm-8 m-auto">
           <!-- SIMPLE SLIDER -->
-          <div>
-            <div>
-              <div>
+          <div class="carousel slide mb-5" id="slider1" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
                 <img
+                  class="img-fluid d-block"
                   src="https://source.unsplash.com/wgq4eit198Q/700x400"
                   alt="First Slide"
                 />
               </div>
-              <div>
+              <div class="carousel-item">
                 <img
+                  class="img-fluid d-block"
                   src="https://source.unsplash.com/WLUHO9A_xik/700x400"
                   alt="Second Slide"
                 />
               </div>
-              <div>
+              <div class="carousel-item">
                 <img
+                  class="img-fluid d-block"
                   src="https://source.unsplash.com/4yta6mU66dE/700x400"
                   alt="Third Slide"
                 />
@@ -172,10 +179,172 @@
           </div>
 
           <!-- SLIDER WITH CONTROLS -->
+          <!-- 
+          17:27:17 03 Oct, 2019 by Arjun Adhikari
+          Slider 2 
+          -->
+          <div class="carousel slide mb-5" id="slider2" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="img-fluid d-block"
+                  src="https://source.unsplash.com/wgq4eit198Q/700x400"
+                  alt="First Slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="img-fluid d-block"
+                  src="https://source.unsplash.com/WLUHO9A_xik/700x400"
+                  alt="Second Slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="img-fluid d-block"
+                  src="https://source.unsplash.com/4yta6mU66dE/700x400"
+                  alt="Third Slide"
+                />
+              </div>
+            </div>
+
+            <!-- 
+          16:34:16 03 Oct, 2019 by Arjun Adhikari
+          Controls here. 
+          -->
+            <a href="#slider2" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#slider2" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
 
           <!-- SLIDER WITH INDICATORS -->
+          <!-- 
+          17:27:17 03 Oct, 2019 by Arjun Adhikari
+          Slider 3 
+          -->
+          <div class="carousel slide mb-5" id="slider3" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li class="active" data-target="#slider3" data-slide-to="0"></li>
+              <li data-target="#slider3" data-slide-to="1"></li>
+              <!-- Starts from 0 to n-1 like array. -->
+              <li data-target="#slider3" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="img-fluid d-block"
+                  src="https://source.unsplash.com/wgq4eit198Q/700x400"
+                  alt="First Slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="img-fluid d-block"
+                  src="https://source.unsplash.com/WLUHO9A_xik/700x400"
+                  alt="Second Slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="img-fluid d-block"
+                  src="https://source.unsplash.com/4yta6mU66dE/700x400"
+                  alt="Third Slide"
+                />
+              </div>
+            </div>
+
+            <!-- 
+          16:34:16 03 Oct, 2019 by Arjun Adhikari
+          Controls here. 
+          -->
+            <a href="#slider3" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#slider3" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
 
           <!-- SLIDER WITH CAPTIONS -->
+          <!-- 
+          17:27:17 03 Oct, 2019 by Arjun Adhikari
+          Slider 4 
+          -->
+          <div class="carousel slide mb-5" id="slider4" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li class="active" data-target="#slider4" data-slide-to="0"></li>
+              <li data-target="#slider4" data-slide-to="1"></li>
+              <!-- Starts from 0 to n-1 like array. -->
+              <li data-target="#slider4" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="img-fluid d-block"
+                  src="https://source.unsplash.com/wgq4eit198Q/700x400"
+                  alt="First Slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Slider One</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veritatis, odio?
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="img-fluid d-block"
+                  src="https://source.unsplash.com/WLUHO9A_xik/700x400"
+                  alt="Second Slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Slider Two</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veritatis, odio?
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="img-fluid d-block"
+                  src="https://source.unsplash.com/4yta6mU66dE/700x400"
+                  alt="Third Slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Slider Three</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veritatis, odio?
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 
+          16:34:16 03 Oct, 2019 by Arjun Adhikari
+          Controls here. 
+          -->
+            <a href="#slider4" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#slider4" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          <!-- 
+          17:28:17 03 Oct, 2019 by Arjun Adhikari
+          Slider 4 ends. 
+          -->
         </div>
       </div>
     </div>
@@ -197,6 +366,32 @@
       integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"
     ></script>
-    <script></script>
+    <script>
+      // Interval Change and Transition Effects
+      $(".carousel").carousel({
+        interval: 1000,
+        keyboard: true,
+        pause: 'hover',
+        wrap: true
+      });
+
+      // JavaScript Event Fire
+      /*
+      17:37:17 03 Oct, 2019 by Arjun Adhikari
+      Slide is when the image slides.
+      */
+      $('.carousel').on('slide.bs.carousel', function(){
+        console.log('SLIDE');
+      });
+
+      /*
+      17:37:17 03 Oct, 2019 by Arjun Adhikari
+      Slid is when the image stops after sliding.
+      */
+      $('.carousel').on('slid.bs.carousel', function(){
+        console.log('SLID');
+      });
+
+    </script>
   </body>
 </html>
